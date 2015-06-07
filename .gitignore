@@ -1,6 +1,9 @@
 *.json
 *Database/
+*Backups/
 *pycache*
 history_of_watch_later_API.py
 history_of_watch_later_url.py
 playing.py
+*.sublime*
+*.MP4
