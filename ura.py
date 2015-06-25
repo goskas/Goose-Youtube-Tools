@@ -43,5 +43,6 @@ def duration_to_seconds(duration):
     if 'M' in duration:
         m = int(duration.split('M')[0])
         duration = duration.split('M')[1]
-    s = int(duration.strip('S'))
+    if 'S' in duration:
+        s = int(duration.strip('S'))
     return (((24*d) + h)*60 + m)*60 + s 
